@@ -1,3 +1,5 @@
-function MainController($scope) {
-  $scope.name = 'Michael!';
-}
+angular 
+  .module('app')
+  .controller('MainController', ['$scope', function($scope) {
+    $scope.name = 'Michael!';
+  }])
